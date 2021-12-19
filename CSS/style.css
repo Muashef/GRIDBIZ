@@ -1,0 +1,202 @@
+body{
+  background-color: red;
+  height: 70%;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  padding: 20px;
+}
+
+.first{
+  background-color: white;
+  height:24pc ;
+  border-radius: 10px;
+}
+
+.main{
+  text-align: right;
+  background-color:rgba(255, 255, 255, 0.384);
+  font-size: 13px;
+  overflow: auto;
+  margin-left: 3em;
+  margin-bottom: 3em;
+  padding-right: 1.5em;
+}
+
+.price{
+  background-color: white;
+  margin-right:10em;
+  margin-left: 1em;
+  display:block;
+  padding-right:10px
+}
+
+.mode{
+  background-image: url(../images/BetandHet.jpg);
+  border-radius: 25px;
+}
+
+.base{
+  margin: 10px;
+}
+
+/* END OF FIRST */
+
+.second{
+  background-color: white;
+  height: 24pc;
+  border-radius: 10px;
+}
+
+#mobile{
+  background-image: url(../images/MandT.jpg);
+  border-radius: 25px;
+}
+
+#baby{
+  line-height: 30px;
+}
+
+#tab{
+  line-height: 17px;
+}
+.third{
+  background-color: white;
+  height: 24pc;
+  border-radius: 10px;
+}
+
+#babies{
+  background-image: url(../images/GandB.jpg);
+  border-radius: 20px;
+}
+
+/* END OF THIRD */
+
+.fourth{
+  background-color: white;
+  height: 24pc;
+  border-radius: 10px;
+}
+
+#TV{
+  background-image: url(../images/TV.jpg);
+  height: 15pc;
+  border-radius: 25px;
+  
+}
+
+.logo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    background-color: red;
+    gap: 2px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;   
+}
+
+.hp{
+  background-color: white;
+  padding: 40px;
+  font-style: italic;
+  color: blueviolet;
+}
+
+.itec{
+  background-color: white;
+  padding: 40px;
+  font-weight: bold;
+}
+
+.subtec{
+  font-style: italic;
+  font-size: 12px;
+}
+
+.intel{
+  background-color: white;
+  padding: 40px;
+  font-weight: bolder;
+}
+
+.png{
+  background-color: white;
+  padding: 40px;
+  color: blueviolet;
+  font-size: 40px;
+}
+
+.techno{
+  background-color: white;
+  padding: 40px;
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(130, 25, 228);
+}
+
+.subtecno{
+  font-weight: lighter;
+  font-size: large;
+  text-indent: 5pc;
+}
+
+.unilever{
+  background-color: white;
+  padding: 40px;
+  color: blueviolet;
+  font-style: italic;
+}
+
+.hm{
+  background-color: white;
+  padding: 40px;
+  color: blue;
+}
+
+.subhm{
+  font-style: italic;
+  font-size: 18px;
+}
+
+.coca{
+  background-color: white;
+  padding: 60px;
+  color: red;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.samsung{
+  background-color: white;
+  padding: 60px;
+  color: blue;
+}
+
+.lenovo{
+  background-color: white;
+  padding: 40px;
+  
+}
+
+.nokia{
+  background-color: white;
+  padding: 60px;
+  color: blue;
+}
+
+.nexus{
+  background-color: white;
+  padding: 40px;
+  letter-spacing: 10px;
+}
+
+.subnex{
+  font-size: 10px;
+  letter-spacing: normal;
+}
